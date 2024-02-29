@@ -1,8 +1,10 @@
 {
     "version": 1.0,
     "title": "",
-    "languages": [],
+    "duration": 1,
+    "timing_unit": "seconds",
+    "languages": ["en-US"],
     "styles": [],
     "tracks": [],
-    "groups": {}
+    "combinations": {}
 }
