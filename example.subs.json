@@ -4,7 +4,9 @@
     "duration": 1,
     "timing_unit": "seconds",
     "languages": ["en-US"],
-    "styles": [],
+    "styles": {
+
+    },
     "tracks": [],
     "combinations": {}
 }

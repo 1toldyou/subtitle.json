@@ -1,6 +1,6 @@
 {
   "name": "subtitle-json",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Adapter for subtitle.json in TypeScript",
   "main": "src/index.ts",
   "scripts": {
@@ -14,7 +14,7 @@
     "subtitle"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/1toldyou/subtitle.json/issues"
   },

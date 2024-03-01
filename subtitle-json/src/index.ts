@@ -6,7 +6,9 @@ export type SubtitleJSON = {
     timing_unit: "seconds" | "frames";
     languages: string[];
     // body
-    styles: SubtitleStyle[];
+    styles: {
+        [key: string]: SubtitleStyle
+    };
     tracks: SubtitleTrack[];
     combinations: {
         [key: string]: SubtitleCombination
@@ -29,7 +31,7 @@ type SubtitleEntry = {
 };
 type SubtitleTrackPosition = {};
 type SubtitleTrack = {
-    style: number;
+    style: string;
     position: SubtitleTrackPosition;
     entries: SubtitleEntry[];
 };
